@@ -1,0 +1,78 @@
+$border-radius:                 .50rem .50rem 0 0;
+$border-color:                  rgba(47, 61, 79, .25);
+$component-active-bg:           rgb(47, 61, 79);
+$nav-divider-margin-y:                        0px;
+
+
+// Bootstrap Overrides Above this
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// User css below this
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(47, 61, 79);
+}
+
+// Navigation and Header with Pill buttons
+.content {
+    max-width: 395px;
+    margin: 0 auto;
+    padding-top: 10%;
+
+    .container {
+        background-color: rgb(230, 173, 89);
+        font-family: 'Poor Story', cursive;
+        padding-right: 0px;
+        padding-left: 0px;
+
+        .nav-pills {
+
+            .nav-link {
+                color: rgb(47, 61, 79);
+                font-weight: 600;
+                font-size: 1.125rem;
+            }
+            
+            .nav-link.active {
+                color: rgb(230, 173, 89);
+            }
+        }
+    }
+}
+
+.header {
+    background-color: rgb(230, 173, 89);
+    font-family: 'Love Ya Like A Sister', cursive;
+    width: 100%;
+
+    h5 {
+        font-size: 1.5rem;
+    }
+}
+// End of Navigation and Header with Pill buttons
+
+.monkeyContent {
+    background-color: rgb(108, 201, 207);
+}
+
+// Tab Content Settings
+.tab-pane {
+    background-color: rgb(138, 98, 111);
+
+    .container-fluid {
+        margin: 0 0 .5rem 0;
+    }
+
+    .padIt {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}

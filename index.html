@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FCC Twitch API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Poor+Story" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/main.css" />
+</head>
+<body>
+
+    <div id="monkey">
+        <div class="container-fluid">
+            <div class="content">
+                <div class="header mx-auto border-0 rounded pt-3 pb-3">
+                    <div class="d-flex justify-content-center pt-2"><h5>Twitch API!</h5></div>
+                </div>
+                <div class="container">
+                    <!-- Beginning of Tab Buttons to display content below -->
+                    <ul class="nav nav-pills nav-fill justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-online-tab" data-toggle="pill" href="#pills-online" role="tab" aria-controls="pills-online" aria-selected="false">Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-offline-tab" data-toggle="pill" href="#pills-offline" role="tab" aria-controls="pills-offline" aria-selected="false">Offline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-search-tab" data-toggle="pill" href="#pills-search" role="tab" aria-controls="pills-search" aria-selected="false">Search</a>
+                        </li>
+                    </ul>
+                    <!-- Beginning of Tab Content, displays after click -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                            <div class="container-fluid">
+                                <div class="userInfo">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-online" role="tabpanel" aria-labelledby="pills-online-tab">
+                            Online peoples
+                        </div>
+                        <div class="tab-pane fade" id="pills-offline" role="tabpanel" aria-labelledby="pills-offline-tab">
+                            Offline peoples
+                        </div>
+                        <div class="tab-pane fade" id="pills-search" role="tabpanel" aria-labelledby="pills-search-tab">
+                            Search for peoples
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
