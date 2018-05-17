@@ -37,18 +37,42 @@
                         <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
                             <div class="container-fluid">
                                 <div class="userInfo">
-
+                                    <!-- All user pane data -->
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-online" role="tabpanel" aria-labelledby="pills-online-tab">
-                            Online peoples
+                            <div class="container-fluid">
+                                <div class="onlineUserInfo">
+                                    <!-- Online user pane data -->
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="pills-offline" role="tabpanel" aria-labelledby="pills-offline-tab">
-                            Offline peoples
+                            <div class="container-fluid">
+                                <div class="offlineUserInfo">
+                                    <!-- Offline user pane data -->
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="pills-search" role="tabpanel" aria-labelledby="pills-search-tab">
-                            Search for peoples
+                            <div class="container-fluid">
+                                <div class="searchUserInfo">
+                                    <form class="form pt-5 pb-4 justify-content-center">
+                                        <div class="form-group">
+                                            <input type="search" class="form-control form-control-sm mb-1 mr-sm-2" id="searchInput" placeholder="Search for Channel or Username">
+                                        </div>
+                                        <div class="form-group">
+                                            <button id="searchBtn" type="button" class="blockIt myButton mb-2 border-0">Submit</button>
+                                        </div>
+                                    </form>
+                                    <div class="container-fluid ">
+                                        <div class="searchResults">
+                                            <!-- Search results data Attr -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,8 +82,8 @@
     
 
     <script src="src/js/jquery.min.js"></script>
-    <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/main.js"></script>
 </body>
 </html>

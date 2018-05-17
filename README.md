@@ -1,1 +1,3 @@
-# FCC-TwitchAPI
+# FreeCodeCamp-TwitchAPI
+
+### Simple to use API
